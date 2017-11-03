@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="3dp"
+    android:paddingLeft="11dp"
+    android:background="#FFF" >
+
+
+    <ImageView
+        android:id="@+id/country_flag"
+        android:layout_width="60dp"
+        android:layout_height="47dp"
+        android:paddingTop="5dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:src="@drawable/ng"
+        android:layout_alignParentTop="true"
+         />
+
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_toRightOf="@id/country_flag"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/nigeria"
+        android:textAppearance="@style/nigeria" />
+
+
+    <TextView
+        android:id="@+id/btc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:text="@string/btc"
+        android:textAppearance="@style/btc_" />
+
+    <TextView
+        android:id="@+id/curr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btc"
+        android:layout_marginLeft="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:text="@string/curr"
+        android:textAppearance="@style/btc_" />
+
+    <TextView
+        android:id="@+id/btc_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/curr1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:text="@string/btc_value"
+        android:textAppearance="@style/btc_" />
+
+    <TextView
+        android:id="@+id/eth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btc"
+        android:layout_marginLeft="146dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:text="@string/eth"
+        android:textAppearance="@style/btc_" />
+
+    <TextView
+        android:id="@+id/curr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/eth"
+        android:layout_marginLeft="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:text="@string/curr"
+        android:textAppearance="@style/btc_" />
+
+    <TextView
+        android:id="@+id/eth_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/curr2"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:text="@string/btc_value"
+        android:textAppearance="@style/btc_" />
+
+</RelativeLayout>

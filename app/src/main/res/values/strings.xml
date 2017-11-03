@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cryptocurrencies converter app</string>
+    <string name="nigeria">NIGERIA</string>
+    <string name="btc">BTC/</string>
+    <string name="curr">NGN</string>
+    <string name="btc_value">0.000</string>
+    <string name="eth">ETH/</string>
+    <string name="eth_value">0.000</string>
+</resources>
